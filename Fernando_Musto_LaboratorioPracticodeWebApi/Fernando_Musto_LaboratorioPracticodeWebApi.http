@@ -1,0 +1,6 @@
+@Fernando_Musto_LaboratorioPracticodeWebApi_HostAddress = http://localhost:5083
+
+GET {{Fernando_Musto_LaboratorioPracticodeWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
