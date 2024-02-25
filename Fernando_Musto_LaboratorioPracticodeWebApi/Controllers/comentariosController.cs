@@ -96,7 +96,7 @@ namespace Fernando_Musto_LaboratorioPracticodeWebApi.Controllers
 
         //Eliminar un registro
         [HttpDelete]
-        [Route("DeleteC/{id}")]
+        [Route("DeleteComentarioID/{id}")]
         public IActionResult delete_comentario(int id)
         {
             //Obtener el registro que se desea eliminar

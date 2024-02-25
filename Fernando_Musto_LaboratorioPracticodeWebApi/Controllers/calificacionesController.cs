@@ -59,7 +59,7 @@ namespace Fernando_Musto_LaboratorioPracticodeWebApi.Controllers
 
         //Peticion para actualizar un registro
         [HttpPut]
-        [Route("Actualizar_GRADE/{id}")]
+        [Route("Actualizar_por_el_idpublicacion/{id}")]
         public IActionResult update_grade(int id, [FromBody] calificaciones grade_update)
         {
 
@@ -97,7 +97,7 @@ namespace Fernando_Musto_LaboratorioPracticodeWebApi.Controllers
 
         //Eliminar un registro
         [HttpDelete]
-        [Route("Deletecali/{id}")]
+        [Route("Deletecal_idcalificacion/{id}")]
         public IActionResult delete_calificacion(int id)
         {
             //Obtener el registro que se desea eliminar
@@ -125,7 +125,7 @@ namespace Fernando_Musto_LaboratorioPracticodeWebApi.Controllers
 
         //Filtrado de un registro
         [HttpGet]
-        [Route("buscaridpubli/{id}")]
+        [Route("buscar_idpubli/{id}")]
         public IActionResult search_ref(int id)
         {
 

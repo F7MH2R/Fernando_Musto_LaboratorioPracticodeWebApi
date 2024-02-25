@@ -131,7 +131,7 @@ namespace Fernando_Musto_LaboratorioPracticodeWebApi.Controllers
 
         //Filtrado de un registro
         [HttpGet]
-        [Route("Buscarnameu/{nombreusuario}")]
+        [Route("Buscarnameusuario/{nombreusuario}")]
         public IActionResult search_ref(string nombreusuario)
         {
 
